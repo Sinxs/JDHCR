@@ -10,9 +10,9 @@ from poco.drivers.unity3d import UnityPoco
 poco = UnityPoco()
 
 def start():
-    stop_app('com.example.gcloudu3ddemo')
+    stop_app('包名')
     time.sleep(2)
-    start_app('com.example.gcloudu3ddemo')
+    start_app('包名')
     time.sleep(10)
     
     poco = UnityPoco()
